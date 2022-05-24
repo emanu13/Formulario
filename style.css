@@ -1,0 +1,52 @@
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 500px;
+    background-color: ghostwhite;
+}
+
+
+h1{
+    margin: 0 auto;
+    width: 500px;  
+}
+
+body{
+    background-color: gainsboro;
+}
+
+strong{
+    font-weight: bold;
+   }
+
+
+   .mainmenubtn {
+    background-color: rgb(22, 25, 26);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(10, 10, 12);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(129, 146, 245);
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: rgb(21, 21, 24);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
